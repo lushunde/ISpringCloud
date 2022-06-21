@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.incoding.cloud.iorder.mapper.OrderMapper">
+
+    <resultMap id="BaseResultMap" type="top.incoding.cloud.iorder.api.dto.Order">
+            <id property="orderId" column="order_id" jdbcType="VARCHAR"/>
+            <result property="payment" column="payment" jdbcType="DECIMAL"/>
+            <result property="paymentType" column="payment_type" jdbcType="INTEGER"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+            <result property="paymentTime" column="payment_time" jdbcType="TIMESTAMP"/>
+            <result property="consignTime" column="consign_time" jdbcType="TIMESTAMP"/>
+            <result property="endTime" column="end_time" jdbcType="TIMESTAMP"/>
+            <result property="closeTime" column="close_time" jdbcType="TIMESTAMP"/>
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="uniquekey" column="uniqueKey" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        order_id,payment,payment_type,
+        status,create_time,update_time,
+        payment_time,consign_time,end_time,
+        close_time,user_id,uniqueKey
+    </sql>
+
+
+    <select id="queryOrderList" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List" /> from ISpringCloudDB_Order.`Order` where user_id = #{userId}
+
+    </select>
+</mapper>

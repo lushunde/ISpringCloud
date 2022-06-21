@@ -1,0 +1,64 @@
+server:
+  port: 8800
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8900/eureka
+
+log:
+  level: info
+logging:
+  config: classpath:logback.xml
+
+
+spring:
+  application:
+    name: gateway
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: user-route
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**
+          filters:
+            - StripPrefix=1
+        - id: goods-route
+          uri: lb://goods-service
+          predicates:
+            - Path=/good/**
+          filters:
+            - StripPrefix=1
+        - id: order-route
+          uri: lb://order-service
+          predicates:
+            - Path=/order/**
+          filters:
+            - StripPrefix=1
+
+      httpclient:
+        wiretap: true
+      httpserver:
+        wiretap: true
+  redis:
+    host: 10.0.193.128
+    port: 6379
+
+feign:
+  compression:
+    request:
+      enabled: true
+    response:
+      enabled: true
+
+
+auth:
+  ignoreUrls: /user/login,/user/logout,/user/validateToken

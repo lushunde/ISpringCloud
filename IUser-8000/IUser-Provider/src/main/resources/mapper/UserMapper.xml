@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.incoding.cloud.iuser.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="top.incoding.cloud.iuser.api.dto.User">
+            <id property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="userName" column="user_name" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="realName" column="real_name" jdbcType="VARCHAR"/>
+            <result property="sex" column="sex" jdbcType="INTEGER"/>
+            <result property="img" column="img" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        user_id,user_name,password,
+        real_name,sex,img
+    </sql>
+
+    <select id="getUserByUserName"  resultMap="BaseResultMap" >
+        select <include refid="Base_Column_List" /> from ISpringCloudDB_User.User where user_name = #{userName}
+    </select>
+</mapper>

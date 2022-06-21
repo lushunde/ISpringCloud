@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="IGateway-8800" />
+        <module name="IOrder-API" />
+        <module name="IGoods-provider" />
+        <module name="IUser-API" />
+        <module name="IUser" />
+        <module name="IGoods-API" />
+        <module name="IOrder-Provider" />
+        <module name="ICommon" />
+        <module name="IEureka-8900" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="IEureka-9001" target="1.8" />
+      <module name="IGenerator" target="1.5" />
+      <module name="IUser-Provider" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IGateway-8800" options="" />
+      <module name="IGenerator" options="" />
+      <module name="IGoods-provider" options="" />
+      <module name="IOrder-Provider" options="" />
+      <module name="ISpringCloud" options="-parameters" />
+      <module name="IUser-Provider" options="" />
+    </option>
+  </component>
+</project>

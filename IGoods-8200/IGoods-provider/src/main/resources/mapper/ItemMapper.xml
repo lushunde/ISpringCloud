@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.incoding.cloud.igoods.mapper.ItemMapper">
+
+    <resultMap id="BaseResultMap" type="top.incoding.cloud.igoods.api.dto.Item">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="title" column="title" jdbcType="VARCHAR"/>
+            <result property="sellPoint" column="sell_point" jdbcType="VARCHAR"/>
+            <result property="price" column="price" jdbcType="DECIMAL"/>
+            <result property="num" column="num" jdbcType="INTEGER"/>
+            <result property="limitNum" column="limit_num" jdbcType="INTEGER"/>
+            <result property="image" column="image" jdbcType="VARCHAR"/>
+            <result property="cid" column="cid" jdbcType="BIGINT"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+            <result property="created" column="created" jdbcType="TIMESTAMP"/>
+            <result property="updated" column="updated" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,title,sell_point,
+        price,num,limit_num,
+        image,cid,status,
+        created,updated
+    </sql>
+
+
+    <select id="queryGoodsList" resultMap="BaseResultMap" >
+        select <include refid="Base_Column_List"/> from item where id = #{id}
+
+    </select>
+
+</mapper>

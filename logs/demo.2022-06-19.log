@@ -1,0 +1,1568 @@
+22-06-19 17:53:56.392 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 12984 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 17:53:56.392 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 17:53:56.981 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=056ef6c6-2518-3ecd-ad7c-874083f0103a
+22-06-19 17:53:57.293 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 17:53:57.293 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 17:53:57.293 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 17:53:57.293 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 17:53:57.387 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 17:53:57.387 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 975 ms
+22-06-19 17:53:59.171 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 17:53:59.914 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 17:53:59.958 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 17:53:59.974 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 17:53:59.990 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 17:53:59.990 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 17:53:59.990 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 17:53:59.990 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 17:53:59.990 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 17:53:59.990 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 17:53:59.990 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 17:53:59.990 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 17:54:00.656 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 17:54:00.656 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 17:54:00.656 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 17:54:00.671 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655632440671 with initial instances count: 4
+22-06-19 17:54:00.671 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 17:54:00.671 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655632440671, current=UP, previous=STARTING]
+22-06-19 17:54:00.671 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 17:54:00.671 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 17:54:00.687 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 17:54:00.687 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 17:54:00.703 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 17:54:01.585 [TRACEID:] [main]  WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+22-06-19 17:54:01.585 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 17:54:04.605 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 17:54:04.621 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 17:54:04.621 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 17:54:05.059 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Pausing ProtocolHandler ["http-nio-8001"]
+22-06-19 17:54:05.059 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Stopping service [Tomcat]
+22-06-19 17:54:05.059 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Stopping ProtocolHandler ["http-nio-8001"]
+22-06-19 17:54:05.059 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Destroying ProtocolHandler ["http-nio-8001"]
+22-06-19 17:54:05.075 [TRACEID:] [main]  INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+22-06-19 17:54:05.075 [TRACEID:] [main]  ERROR o.s.boot.SpringApplication:824- Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at top.incoding.cloud.iuser.IUserProviderApplication.main(IUserProviderApplication.java:20)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.util.TimSort.sort(TimSort.java:220)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1464)
+	at java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:387)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:483)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+22-06-19 17:58:58.551 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 18344 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 17:58:58.551 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 17:58:59.106 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=056ef6c6-2518-3ecd-ad7c-874083f0103a
+22-06-19 17:58:59.356 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 17:58:59.372 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 17:58:59.372 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 17:58:59.372 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 17:58:59.454 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 17:58:59.454 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 888 ms
+22-06-19 17:59:00.806 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 17:59:01.535 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 17:59:01.567 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 17:59:01.583 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 17:59:01.598 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 17:59:01.598 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 17:59:01.598 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 17:59:01.598 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 17:59:01.598 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 17:59:01.598 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 17:59:01.598 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 17:59:01.598 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 17:59:02.132 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 17:59:02.132 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 17:59:02.132 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 17:59:02.132 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655632742132 with initial instances count: 3
+22-06-19 17:59:02.132 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 17:59:02.132 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655632742132, current=UP, previous=STARTING]
+22-06-19 17:59:02.132 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 17:59:02.132 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 17:59:02.148 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 17:59:02.148 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 17:59:02.179 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 17:59:02.923 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.36 seconds (JVM running for 6.179)
+22-06-19 17:59:35.860 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 17:59:35.860 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 17:59:35.862 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 2 ms
+22-06-19 18:00:21.772 [TRACEID:] [http-nio-8001-exec-8]  ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]:175- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): top.incoding.cloud.iuser.mapper.UserMapper.selectById] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): top.incoding.cloud.iuser.mapper.UserMapper.selectById
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy89.selectById(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.getById(ServiceImpl.java:238)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl$$FastClassBySpringCGLIB$$76535273.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at top.incoding.cloud.iuser.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$e229f293.getById(<generated>)
+	at top.incoding.cloud.iuser.web.UserController.login(UserController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:04:01.625 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:09:01.643 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:14:01.653 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:16:35.210 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 18:16:35.210 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655633795210, current=DOWN, previous=UP]
+22-06-19 18:16:35.210 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:16:35.574 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 18:16:37.246 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient:93- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:9001/eureka/} exception=I/O error on POST request for "http://127.0.0.1:9001/eureka/apps/IUSER": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9001/eureka/apps/IUSER": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+22-06-19 18:16:37.246 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:130- Request execution failed with message: I/O error on POST request for "http://127.0.0.1:9001/eureka/apps/IUSER": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+22-06-19 18:16:38.579 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 18:16:39.296 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient:84- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:9001/eureka/}, exception=I/O error on POST request for "http://127.0.0.1:9001/eureka/apps/IUSER": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9001/eureka/apps/IUSER": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 36 more
+
+22-06-19 18:16:39.296 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:130- Request execution failed with message: I/O error on POST request for "http://127.0.0.1:9001/eureka/apps/IUSER": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+22-06-19 18:16:39.296 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  WARN  c.netflix.discovery.DiscoveryClient:878- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:16:39.296 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  WARN  c.n.discovery.InstanceInfoReplicator:125- There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:16:40.615 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient:84- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:9001/eureka/}, exception=I/O error on DELETE request for "http://127.0.0.1:9001/eureka/apps/IUSER/10.0.193.1:iuser:8001": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://127.0.0.1:9001/eureka/apps/IUSER/10.0.193.1:iuser:8001": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 53 more
+
+22-06-19 18:16:40.615 [TRACEID:] [SpringApplicationShutdownHook]  WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:130- Request execution failed with message: I/O error on DELETE request for "http://127.0.0.1:9001/eureka/apps/IUSER/10.0.193.1:iuser:8001": Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:9001 [/127.0.0.1] failed: Connection refused: connect
+22-06-19 18:16:40.615 [TRACEID:] [SpringApplicationShutdownHook]  ERROR c.netflix.discovery.DiscoveryClient:975- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:16:40.615 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 18:37:04.612 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 19940 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 18:37:04.612 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 18:37:05.289 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=be395d1b-8b68-319c-a3a9-95e99cc65465
+22-06-19 18:37:05.557 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 18:37:05.573 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 18:37:05.573 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 18:37:05.573 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 18:37:05.651 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 18:37:05.651 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 1024 ms
+22-06-19 18:37:06.975 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 18:37:07.685 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 18:37:07.716 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 18:37:07.732 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 18:37:07.748 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:37:07.748 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 18:37:07.748 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 18:37:07.748 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 18:37:07.748 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 18:37:07.748 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 18:37:07.748 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 18:37:07.748 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 18:37:08.293 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 18:37:08.293 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 18:37:08.293 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 18:37:08.308 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655635028293 with initial instances count: 1
+22-06-19 18:37:08.308 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 18:37:08.308 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635028308, current=UP, previous=STARTING]
+22-06-19 18:37:08.308 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:37:08.308 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 18:37:08.324 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 18:37:08.324 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 18:37:08.339 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:37:09.094 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.951 seconds (JVM running for 7.303)
+22-06-19 18:37:28.925 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 18:37:28.925 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 18:37:28.925 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 0 ms
+22-06-19 18:38:06.125 [TRACEID:] [http-nio-8001-exec-1]  ERROR t.i.c.i.c.e.GlobalExceptionHandler:42- 统一异常拦截时打印log={}
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): top.incoding.cloud.iuser.mapper.UserMapper.selectById
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy92.selectById(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.getById(ServiceImpl.java:238)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl$$FastClassBySpringCGLIB$$76535273.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at top.incoding.cloud.iuser.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$14d0dd38.getById(<generated>)
+	at top.incoding.cloud.iuser.web.UserController.login(UserController.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:42:07.765 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:43:24.320 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 18:43:24.320 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635404320, current=DOWN, previous=UP]
+22-06-19 18:43:24.320 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:43:24.335 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:43:24.680 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 18:43:27.695 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 18:43:27.710 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 18:43:27.710 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 18:43:33.161 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 19148 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 18:43:33.177 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 18:43:33.761 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=be395d1b-8b68-319c-a3a9-95e99cc65465
+22-06-19 18:43:34.043 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 18:43:34.043 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 18:43:34.043 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 18:43:34.043 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 18:43:34.131 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 18:43:34.131 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 933 ms
+22-06-19 18:43:35.448 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 18:43:36.156 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 18:43:36.203 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 18:43:36.218 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 18:43:36.234 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:43:36.242 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 18:43:36.242 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 18:43:36.242 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 18:43:36.242 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 18:43:36.242 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 18:43:36.242 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 18:43:36.242 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 18:43:36.775 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 18:43:36.791 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 18:43:36.791 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 18:43:36.791 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655635416791 with initial instances count: 1
+22-06-19 18:43:36.791 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 18:43:36.791 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635416791, current=UP, previous=STARTING]
+22-06-19 18:43:36.791 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:43:36.791 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 18:43:36.806 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 18:43:36.806 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 18:43:36.821 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:43:37.575 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.48 seconds (JVM running for 6.353)
+22-06-19 18:44:09.624 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 18:44:09.624 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 18:44:09.625 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 1 ms
+22-06-19 18:44:19.317 [TRACEID:] [http-nio-8001-exec-6]  ERROR t.i.c.i.c.e.GlobalExceptionHandler:42- 统一异常拦截时打印log={}
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): top.incoding.cloud.iuser.mapper.UserMapper.selectOne
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy92.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.getOne(ServiceImpl.java:254)
+	at com.baomidou.mybatisplus.extension.service.IService.getOne(IService.java:192)
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at top.incoding.cloud.iuser.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$f72d8485.getOne(<generated>)
+	at top.incoding.cloud.iuser.web.UserController.login(UserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:45:09.514 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 18:45:09.514 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635509514, current=DOWN, previous=UP]
+22-06-19 18:45:09.514 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:45:09.529 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:45:09.861 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 18:45:12.891 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 18:45:12.906 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 18:45:12.906 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 18:45:16.890 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 17232 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 18:45:16.890 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 18:45:17.483 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=be395d1b-8b68-319c-a3a9-95e99cc65465
+22-06-19 18:45:17.776 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 18:45:17.776 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 18:45:17.776 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 18:45:17.776 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 18:45:17.855 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 18:45:17.855 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 934 ms
+22-06-19 18:45:19.215 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 18:45:19.928 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 18:45:19.975 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 18:45:19.990 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 18:45:19.990 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:45:20.006 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 18:45:20.006 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 18:45:20.006 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 18:45:20.006 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 18:45:20.006 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 18:45:20.006 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 18:45:20.006 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 18:45:20.548 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 18:45:20.548 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 18:45:20.548 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 18:45:20.548 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655635520548 with initial instances count: 2
+22-06-19 18:45:20.548 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 18:45:20.548 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635520548, current=UP, previous=STARTING]
+22-06-19 18:45:20.548 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 18:45:20.548 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:45:20.564 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 18:45:20.564 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 18:45:20.580 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:45:21.349 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.424 seconds (JVM running for 6.265)
+22-06-19 18:45:28.326 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 18:45:28.327 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 18:45:28.328 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 1 ms
+22-06-19 18:45:28.356 [TRACEID:] [http-nio-8001-exec-1]  ERROR t.i.c.i.c.e.GlobalExceptionHandler:42- 统一异常拦截时打印log={}
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): top.incoding.cloud.iuser.mapper.UserMapper.selectOne
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy92.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.getOne(ServiceImpl.java:254)
+	at com.baomidou.mybatisplus.extension.service.IService.getOne(IService.java:192)
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at top.incoding.cloud.iuser.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$1f7f10f1.getOne(<generated>)
+	at top.incoding.cloud.iuser.web.UserController.login(UserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:48:37.188 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 18:48:37.188 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635717188, current=DOWN, previous=UP]
+22-06-19 18:48:37.188 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:48:37.203 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:48:37.546 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 18:48:40.552 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 18:48:40.568 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 18:48:40.568 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 18:48:43.797 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 4992 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 18:48:43.797 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 18:48:44.368 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=be395d1b-8b68-319c-a3a9-95e99cc65465
+22-06-19 18:48:44.634 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 18:48:44.650 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 18:48:44.650 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 18:48:44.650 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 18:48:44.728 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 18:48:44.728 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 915 ms
+22-06-19 18:48:46.074 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 18:48:46.794 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 18:48:46.826 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 18:48:46.857 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 18:48:46.857 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:48:46.872 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 18:48:46.872 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 18:48:46.872 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 18:48:46.872 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 18:48:46.872 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 18:48:46.872 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 18:48:46.872 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 18:48:47.401 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 18:48:47.401 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 18:48:47.416 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 18:48:47.416 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655635727416 with initial instances count: 2
+22-06-19 18:48:47.416 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 18:48:47.416 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635727416, current=UP, previous=STARTING]
+22-06-19 18:48:47.416 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:48:47.416 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 18:48:47.432 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 18:48:47.432 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 18:48:47.448 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:48:48.185 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.345 seconds (JVM running for 6.185)
+22-06-19 18:49:00.207 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 18:49:00.207 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 18:49:00.208 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 1 ms
+22-06-19 18:49:17.629 [TRACEID:] [http-nio-8001-exec-6]  ERROR t.i.c.i.c.e.GlobalExceptionHandler:42- 统一异常拦截时打印log={}
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): top.incoding.cloud.iuser.mapper.UserMapper.selectOne
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy92.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.getOne(ServiceImpl.java:254)
+	at com.baomidou.mybatisplus.extension.service.IService.getOne(IService.java:192)
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at top.incoding.cloud.iuser.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$5658137.getOne(<generated>)
+	at top.incoding.cloud.iuser.web.UserController.login(UserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:50:34.312 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 18:50:34.312 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635834312, current=DOWN, previous=UP]
+22-06-19 18:50:34.312 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:50:34.322 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:50:34.684 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 18:50:37.706 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 18:50:37.722 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 18:50:37.722 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 18:50:41.747 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 12708 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 18:50:41.747 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 18:50:42.334 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=034e071a-5e6d-3787-85f8-9de6a993f195
+22-06-19 18:50:42.609 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 18:50:42.609 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 18:50:42.609 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 18:50:42.609 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 18:50:42.687 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 18:50:42.687 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 909 ms
+22-06-19 18:50:44.039 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 18:50:44.729 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 18:50:44.776 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 18:50:44.791 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 18:50:44.791 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:50:44.807 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 18:50:44.807 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 18:50:44.807 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 18:50:44.807 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 18:50:44.807 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 18:50:44.807 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 18:50:44.807 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 18:50:45.359 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 18:50:45.359 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 18:50:45.359 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 18:50:45.359 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655635845359 with initial instances count: 2
+22-06-19 18:50:45.359 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 18:50:45.359 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655635845359, current=UP, previous=STARTING]
+22-06-19 18:50:45.359 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:50:45.359 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 18:50:45.375 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 18:50:45.375 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 18:50:45.390 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:50:46.139 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.359 seconds (JVM running for 6.239)
+22-06-19 18:53:06.822 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 18:53:06.822 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 18:53:06.823 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 1 ms
+22-06-19 18:53:06.848 [TRACEID:] [http-nio-8001-exec-1]  ERROR t.i.c.i.c.e.GlobalExceptionHandler:42- 统一异常拦截时打印log={}
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): top.incoding.cloud.iuser.service.UserService.getOne
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy96.getOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.getOne(IService.java:192)
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:627)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:159)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy96.getOne(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy97.getOne(Unknown Source)
+	at top.incoding.cloud.iuser.web.UserController.login(UserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:53:32.274 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 18:53:32.274 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655636012274, current=DOWN, previous=UP]
+22-06-19 18:53:32.274 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:53:32.290 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:53:32.621 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 18:53:35.626 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 18:53:35.642 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 18:53:35.642 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 18:53:39.671 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 4296 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 18:53:39.671 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 18:53:40.261 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=034e071a-5e6d-3787-85f8-9de6a993f195
+22-06-19 18:53:40.521 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 18:53:40.528 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 18:53:40.528 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 18:53:40.528 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 18:53:40.606 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 18:53:40.606 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 903 ms
+22-06-19 18:53:41.949 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 18:53:42.658 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 18:53:42.705 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 18:53:42.720 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 18:53:42.720 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 18:53:42.736 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 18:53:42.736 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 18:53:42.736 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 18:53:42.736 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 18:53:42.736 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 18:53:42.736 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 18:53:42.736 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 18:53:43.282 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 18:53:43.282 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 18:53:43.282 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 18:53:43.282 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655636023282 with initial instances count: 2
+22-06-19 18:53:43.297 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 18:53:43.297 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655636023297, current=UP, previous=STARTING]
+22-06-19 18:53:43.297 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 18:53:43.297 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 18:53:43.297 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 18:53:43.297 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 18:53:43.313 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 18:53:44.047 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.368 seconds (JVM running for 6.224)
+22-06-19 18:56:03.986 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 18:56:03.986 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 18:56:03.986 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 0 ms
+22-06-19 18:56:04.017 [TRACEID:] [http-nio-8001-exec-1]  ERROR t.i.c.i.c.e.GlobalExceptionHandler:42- 统一异常拦截时打印log={}
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): top.incoding.cloud.iuser.service.UserService.getOne
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy95.getOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.getOne(IService.java:192)
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:627)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:159)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy95.getOne(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy96.getOne(Unknown Source)
+	at top.incoding.cloud.iuser.web.UserController.login(UserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 18:58:42.753 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:03:42.765 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:03:46.104 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 19:03:46.104 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655636626104, current=DOWN, previous=UP]
+22-06-19 19:03:46.104 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:03:46.142 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:03:46.471 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 19:03:49.487 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 19:03:49.503 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 19:03:49.503 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 19:03:54.337 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 10036 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 19:03:54.337 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 19:03:54.917 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=549e963c-e560-3984-afa7-583dbea4b448
+22-06-19 19:03:55.177 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 19:03:55.192 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 19:03:55.192 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 19:03:55.192 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 19:03:55.270 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 19:03:55.270 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 901 ms
+22-06-19 19:03:56.633 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 19:03:57.446 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 19:03:57.486 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 19:03:57.518 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 19:03:57.518 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:03:57.534 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 19:03:57.534 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 19:03:57.534 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 19:03:57.534 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 19:03:57.534 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 19:03:57.534 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 19:03:57.534 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 19:03:58.102 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 19:03:58.102 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 19:03:58.102 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 19:03:58.118 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655636638118 with initial instances count: 2
+22-06-19 19:03:58.118 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 19:03:58.118 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655636638118, current=UP, previous=STARTING]
+22-06-19 19:03:58.118 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:03:58.118 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 19:03:58.133 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 19:03:58.133 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 19:03:58.149 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:03:58.893 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.576 seconds (JVM running for 6.407)
+22-06-19 19:04:37.115 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 19:04:37.115 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 19:04:37.117 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 1 ms
+22-06-19 19:04:37.143 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:110- HikariPool-1 - Starting...
+22-06-19 19:04:37.289 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:123- HikariPool-1 - Start completed.
+22-06-19 19:04:37.322 [TRACEID:] [http-nio-8001-exec-1]  ERROR t.i.c.i.c.e.GlobalExceptionHandler:55- 统一异常拦截时打印log={}
+java.lang.NullPointerException: null
+	at top.incoding.cloud.iuser.web.UserController.login(UserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+22-06-19 19:05:50.079 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 19:05:50.079 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655636750079, current=DOWN, previous=UP]
+22-06-19 19:05:50.079 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:05:50.095 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:05:50.447 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:350- HikariPool-1 - Shutdown initiated...
+22-06-19 19:05:50.447 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:352- HikariPool-1 - Shutdown completed.
+22-06-19 19:05:50.447 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 19:05:53.461 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 19:05:53.477 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 19:05:53.477 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 19:05:57.809 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 15968 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 19:05:57.811 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 19:05:58.411 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=549e963c-e560-3984-afa7-583dbea4b448
+22-06-19 19:05:58.692 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 19:05:58.697 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 19:05:58.697 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 19:05:58.697 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 19:05:58.782 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 19:05:58.782 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 947 ms
+22-06-19 19:06:00.186 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 19:06:00.939 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 19:06:00.984 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 19:06:01.005 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 19:06:01.008 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:06:01.021 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 19:06:01.022 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 19:06:01.022 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 19:06:01.022 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 19:06:01.022 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 19:06:01.022 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 19:06:01.022 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 19:06:01.593 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 19:06:01.595 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 19:06:01.596 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 19:06:01.599 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655636761598 with initial instances count: 1
+22-06-19 19:06:01.602 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 19:06:01.603 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655636761603, current=UP, previous=STARTING]
+22-06-19 19:06:01.604 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 19:06:01.604 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:06:01.618 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 19:06:01.619 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 19:06:01.636 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:06:01.656 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 19:06:01.656 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 19:06:01.657 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 1 ms
+22-06-19 19:06:01.682 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:110- HikariPool-1 - Starting...
+22-06-19 19:06:01.821 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:123- HikariPool-1 - Start completed.
+22-06-19 19:06:02.426 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.655 seconds (JVM running for 6.474)
+22-06-19 19:06:27.333 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 19:06:27.333 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655636787333, current=DOWN, previous=UP]
+22-06-19 19:06:27.333 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:06:27.348 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:06:27.719 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:350- HikariPool-1 - Shutdown initiated...
+22-06-19 19:06:27.735 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:352- HikariPool-1 - Shutdown completed.
+22-06-19 19:06:27.735 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 19:06:30.744 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 19:06:30.760 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 19:06:30.760 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 19:06:35.134 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 11824 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 19:06:35.134 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 19:06:35.853 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=549e963c-e560-3984-afa7-583dbea4b448
+22-06-19 19:06:36.200 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 19:06:36.215 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 19:06:36.215 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 19:06:36.215 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 19:06:36.357 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 19:06:36.357 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 1192 ms
+22-06-19 19:06:38.113 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 19:06:38.839 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 19:06:38.902 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 19:06:38.917 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 19:06:38.933 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:06:38.949 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 19:06:38.949 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 19:06:38.949 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 19:06:38.949 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 19:06:38.949 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 19:06:38.949 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 19:06:38.949 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 19:06:39.616 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 19:06:39.616 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 19:06:39.625 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 19:06:39.625 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655636799625 with initial instances count: 1
+22-06-19 19:06:39.625 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 19:06:39.625 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655636799625, current=UP, previous=STARTING]
+22-06-19 19:06:39.625 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:06:39.625 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 19:06:39.636 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 19:06:39.636 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 19:06:39.652 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:06:40.484 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 6.376 seconds (JVM running for 7.916)
+22-06-19 19:10:11.326 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 19:10:11.326 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655637011326, current=DOWN, previous=UP]
+22-06-19 19:10:11.326 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:10:11.326 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:10:11.688 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 19:10:14.709 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 19:10:14.724 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 19:10:14.724 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 19:10:19.228 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 2000 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 19:10:19.228 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 19:10:20.053 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=549e963c-e560-3984-afa7-583dbea4b448
+22-06-19 19:10:20.375 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 19:10:20.381 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 19:10:20.382 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 19:10:20.382 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 19:10:20.523 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 19:10:20.523 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 1260 ms
+22-06-19 19:10:22.009 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 19:10:22.775 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 19:10:22.829 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 19:10:22.857 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 19:10:22.861 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:10:22.878 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 19:10:22.878 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 19:10:22.878 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 19:10:22.878 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 19:10:22.878 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 19:10:22.879 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 19:10:22.879 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 19:10:23.465 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 19:10:23.467 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 19:10:23.469 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 19:10:23.472 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655637023471 with initial instances count: 2
+22-06-19 19:10:23.475 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 19:10:23.475 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655637023475, current=UP, previous=STARTING]
+22-06-19 19:10:23.476 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 19:10:23.477 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:10:23.494 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 19:10:23.496 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 19:10:23.516 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:10:23.535 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 19:10:23.535 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 19:10:23.536 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 1 ms
+22-06-19 19:10:23.567 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:110- HikariPool-1 - Starting...
+22-06-19 19:10:23.719 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:123- HikariPool-1 - Start completed.
+22-06-19 19:10:24.435 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 6.251 seconds (JVM running for 7.189)
+22-06-19 19:15:22.896 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:20:22.916 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:25:22.928 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:30:22.933 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:35:22.950 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:37:10.378 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 19:37:10.378 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655638630378, current=DOWN, previous=UP]
+22-06-19 19:37:10.378 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:37:10.393 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:37:10.754 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:350- HikariPool-1 - Shutdown initiated...
+22-06-19 19:37:10.772 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:352- HikariPool-1 - Shutdown completed.
+22-06-19 19:37:10.772 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 19:37:13.782 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 19:37:13.798 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 19:37:13.798 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 19:37:47.473 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 4000 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 19:37:47.473 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 19:37:48.125 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=549e963c-e560-3984-afa7-583dbea4b448
+22-06-19 19:37:48.450 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 19:37:48.450 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 19:37:48.466 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 19:37:48.466 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 19:37:48.598 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 19:37:48.598 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 1094 ms
+22-06-19 19:37:50.165 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 19:37:50.882 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 19:37:50.944 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 19:37:50.960 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 19:37:50.960 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:37:50.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 19:37:50.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 19:37:50.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 19:37:50.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 19:37:50.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 19:37:50.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 19:37:50.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 19:37:51.558 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 19:37:51.558 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 19:37:51.558 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 19:37:51.571 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655638671571 with initial instances count: 1
+22-06-19 19:37:51.571 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 19:37:51.571 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655638671571, current=UP, previous=STARTING]
+22-06-19 19:37:51.571 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 19:37:51.571 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:37:51.581 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 19:37:51.581 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 19:37:51.597 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:37:52.359 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 5.92 seconds (JVM running for 6.757)
+22-06-19 19:37:56.235 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 19:37:56.235 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 19:37:56.235 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 0 ms
+22-06-19 19:37:56.279 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:110- HikariPool-1 - Starting...
+22-06-19 19:37:56.436 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:123- HikariPool-1 - Start completed.
+22-06-19 19:39:57.235 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 19:39:57.236 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655638797236, current=DOWN, previous=UP]
+22-06-19 19:39:57.236 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:39:57.247 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:39:57.654 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:350- HikariPool-1 - Shutdown initiated...
+22-06-19 19:39:57.661 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:352- HikariPool-1 - Shutdown completed.
+22-06-19 19:39:57.662 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 19:40:00.667 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 19:40:00.682 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 19:40:00.682 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 19:40:05.567 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 11544 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 19:40:05.567 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 19:40:06.268 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=549e963c-e560-3984-afa7-583dbea4b448
+22-06-19 19:40:06.573 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 19:40:06.589 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 19:40:06.589 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 19:40:06.589 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 19:40:06.720 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 19:40:06.720 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 1114 ms
+22-06-19 19:40:08.116 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 19:40:08.875 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 19:40:08.929 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 19:40:08.960 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 19:40:08.960 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:40:08.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 19:40:08.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 19:40:08.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 19:40:08.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 19:40:08.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 19:40:08.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 19:40:08.976 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 19:40:09.617 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 19:40:09.617 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 19:40:09.633 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 19:40:09.633 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655638809633 with initial instances count: 1
+22-06-19 19:40:09.633 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 19:40:09.633 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655638809633, current=UP, previous=STARTING]
+22-06-19 19:40:09.633 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:40:09.633 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 19:40:09.649 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 19:40:09.649 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 19:40:09.676 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:40:10.581 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 6.054 seconds (JVM running for 7.014)
+22-06-19 19:40:23.081 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 19:40:23.081 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 19:40:23.082 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 1 ms
+22-06-19 19:40:23.115 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:110- HikariPool-1 - Starting...
+22-06-19 19:40:23.281 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:123- HikariPool-1 - Start completed.
+22-06-19 19:41:26.619 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 19:41:26.619 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655638886619, current=DOWN, previous=UP]
+22-06-19 19:41:26.619 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:41:26.635 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:41:26.979 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:350- HikariPool-1 - Shutdown initiated...
+22-06-19 19:41:26.994 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:352- HikariPool-1 - Shutdown completed.
+22-06-19 19:41:26.994 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...
+22-06-19 19:41:30.010 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:971- Unregistering ...
+22-06-19 19:41:30.026 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:973- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - deregister  status: 200
+22-06-19 19:41:30.026 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:960- Completed shut down of DiscoveryClient
+22-06-19 19:41:34.515 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:55- Starting IUserProviderApplication using Java 1.8.0_333 on bellus-PC with PID 14316 (E:\GitHub\ISpringCloud\IUser-8001\IUser-Provider\target\classes started by bellus in E:\GitHub\ISpringCloud)
+22-06-19 19:41:34.530 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:634- No active profile set, falling back to 1 default profile: "default"
+22-06-19 19:41:35.358 [TRACEID:] [main]  INFO  o.s.cloud.context.scope.GenericScope:283- BeanFactory id=549e963c-e560-3984-afa7-583dbea4b448
+22-06-19 19:41:35.701 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:108- Tomcat initialized with port(s): 8001 (http)
+22-06-19 19:41:35.701 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Initializing ProtocolHandler ["http-nio-8001"]
+22-06-19 19:41:35.701 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardService:173- Starting service [Tomcat]
+22-06-19 19:41:35.701 [TRACEID:] [main]  INFO  o.a.catalina.core.StandardEngine:173- Starting Servlet engine: [Apache Tomcat/9.0.63]
+22-06-19 19:41:35.840 [TRACEID:] [main]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring embedded WebApplicationContext
+22-06-19 19:41:35.840 [TRACEID:] [main]  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292- Root WebApplicationContext: initialization completed in 1293 ms
+22-06-19 19:41:37.306 [TRACEID:] [main]  INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68- Eureka HTTP Client uses RestTemplate.
+22-06-19 19:41:38.020 [TRACEID:] [main]  WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-06-19 19:41:38.067 [TRACEID:] [main]  INFO  o.s.c.n.eureka.InstanceInfoFactory:67- Setting initial instance status as: STARTING
+22-06-19 19:41:38.098 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:372- Initializing Eureka in region us-east-1
+22-06-19 19:41:38.098 [TRACEID:] [main]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:41:38.114 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1007- Disable delta property : false
+22-06-19 19:41:38.114 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1008- Single vip registry refresh property : null
+22-06-19 19:41:38.114 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1009- Force full registry fetch : false
+22-06-19 19:41:38.114 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1010- Application is null : false
+22-06-19 19:41:38.114 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1011- Registered Applications size is zero : true
+22-06-19 19:41:38.114 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1013- Application version is -1: true
+22-06-19 19:41:38.114 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1097- Getting all instance registry info from the eureka server
+22-06-19 19:41:38.702 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1106- The response status is 200
+22-06-19 19:41:38.702 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1321- Starting heartbeat executor: renew interval is: 30
+22-06-19 19:41:38.702 [TRACEID:] [main]  INFO  c.n.discovery.InstanceInfoReplicator:60- InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-06-19 19:41:38.702 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:492- Discovery Client initialized at timestamp 1655638898702 with initial instances count: 1
+22-06-19 19:41:38.717 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:41- Registering application IUSER with eureka with status UP
+22-06-19 19:41:38.717 [TRACEID:] [main]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655638898717, current=UP, previous=STARTING]
+22-06-19 19:41:38.720 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 19:41:38.720 [TRACEID:] [main]  INFO  o.a.coyote.http11.Http11NioProtocol:173- Starting ProtocolHandler ["http-nio-8001"]
+22-06-19 19:41:38.724 [TRACEID:] [main]  INFO  o.s.b.w.e.tomcat.TomcatWebServer:220- Tomcat started on port(s): 8001 (http) with context path ''
+22-06-19 19:41:38.724 [TRACEID:] [main]  INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration:144- Updating port to 8001
+22-06-19 19:41:38.740 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:882- DiscoveryClient_IUSER/10.0.193.1:iuser:8001 - registration status: 204
+22-06-19 19:41:39.549 [TRACEID:] [main]  INFO  t.i.c.iuser.IUserProviderApplication:61- Started IUserProviderApplication in 6.023 seconds (JVM running for 6.985)
+22-06-19 19:41:39.835 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-06-19 19:41:39.835 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:525- Initializing Servlet 'dispatcherServlet'
+22-06-19 19:41:39.837 [TRACEID:] [http-nio-8001-exec-1]  INFO  o.s.web.servlet.DispatcherServlet:547- Completed initialization in 2 ms
+22-06-19 19:41:39.862 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:42- ========================================== Start ======================================
+22-06-19 19:41:39.862 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:49- URL            : http://localhost:8001/api/login
+22-06-19 19:41:39.862 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:51- HTTP Method    : POST
+22-06-19 19:41:39.863 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:53- Class Method   : top.incoding.cloud.iuser.web.UserController.login
+22-06-19 19:41:39.864 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:55- IP             : 0:0:0:0:0:0:0:1
+22-06-19 19:41:39.881 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:57- Request Args   : [{"userName":"zhangsan","password":"123456"}]
+22-06-19 19:41:39.894 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:110- HikariPool-1 - Starting...
+22-06-19 19:41:40.051 [TRACEID:] [http-nio-8001-exec-1]  INFO  com.zaxxer.hikari.HikariDataSource:123- HikariPool-1 - Start completed.
+22-06-19 19:41:40.401 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:71- =========================================== End ===========================================
+22-06-19 19:41:40.402 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:73- 
+22-06-19 19:41:40.403 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:89- Response Args  : {"result":1,"code":200,"message":"登陆成功","data":"eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTU2NDI1MDAsInVpZCI6MX0.tOg9YmO5FP6Geh41Wlb7lWsByk1HGRt-y0547o6Zip0"}
+22-06-19 19:41:40.403 [TRACEID:] [http-nio-8001-exec-1]  INFO  t.i.cloud.iuser.config.WebLogAspect:96- Time-Consuming : 542 ms
+22-06-19 19:46:38.129 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:51:38.147 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 19:56:38.154 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:01:38.162 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:06:38.173 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:11:38.176 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:16:38.189 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:21:38.196 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:26:38.204 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:31:38.207 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:36:38.215 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:41:38.225 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:46:38.231 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:51:38.239 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 20:56:38.246 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:01:38.256 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:06:38.263 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:11:38.277 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:16:38.282 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:21:38.289 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:26:38.294 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:31:38.304 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:36:38.313 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:41:38.326 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:46:38.334 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:51:38.341 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 21:56:38.357 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 22:01:38.361 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 22:06:38.371 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 22:11:38.386 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 22:16:38.393 [TRACEID:] [AsyncResolver-bootstrap-executor-0]  INFO  c.n.d.s.r.aws.ConfigClusterResolver:43- Resolving eureka endpoints via configuration
+22-06-19 22:17:07.289 [TRACEID:] [SpringApplicationShutdownHook]  INFO  o.s.c.n.e.s.EurekaServiceRegistry:62- Unregistering application IUSER with eureka with status DOWN
+22-06-19 22:17:07.289 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:1352- Saw local status change event StatusChangeEvent [timestamp=1655648227289, current=DOWN, previous=UP]
+22-06-19 22:17:07.289 [TRACEID:] [DiscoveryClient-InstanceInfoReplicator-0]  INFO  c.netflix.discovery.DiscoveryClient:873- DiscoveryClient_IUSER/10.0.193.1:iuser:8001: registering service...
+22-06-19 22:17:07.677 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:350- HikariPool-1 - Shutdown initiated...
+22-06-19 22:17:07.677 [TRACEID:] [SpringApplicationShutdownHook]  INFO  com.zaxxer.hikari.HikariDataSource:352- HikariPool-1 - Shutdown completed.
+22-06-19 22:17:07.677 [TRACEID:] [SpringApplicationShutdownHook]  INFO  c.netflix.discovery.DiscoveryClient:935- Shutting down DiscoveryClient ...

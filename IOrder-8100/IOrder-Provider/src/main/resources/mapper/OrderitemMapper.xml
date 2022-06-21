@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.incoding.cloud.iorder.mapper.OrderitemMapper">
+
+    <resultMap id="BaseResultMap" type="top.incoding.cloud.iorder.api.dto.Orderitem">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <result property="itemId" column="item_id" jdbcType="BIGINT"/>
+            <result property="orderId" column="order_id" jdbcType="VARCHAR"/>
+            <result property="num" column="num" jdbcType="INTEGER"/>
+            <result property="title" column="title" jdbcType="VARCHAR"/>
+            <result property="price" column="price" jdbcType="DECIMAL"/>
+            <result property="totalFee" column="total_fee" jdbcType="DECIMAL"/>
+            <result property="picPath" column="pic_path" jdbcType="VARCHAR"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,item_id,order_id,
+        num,title,price,
+        total_fee,pic_path,status,
+        create_time,update_time
+    </sql>
+
+    <select id="queryOrderitemList" resultMap="BaseResultMap" >
+        select  <include refid="Base_Column_List"/> from ISpringCloudDB_Order.OrderItem where order_id = #{orderId}
+    </select>
+</mapper>
