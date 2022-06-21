@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/IOrder-8100/IOrder-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/IGoods-8200/IGoods-provider/pom.xml" />
         <option value="$PROJECT_DIR$/IGateway-8800/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-8700/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

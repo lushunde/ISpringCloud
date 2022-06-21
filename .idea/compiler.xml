@@ -21,6 +21,7 @@
       <module name="IEureka-9001" target="1.8" />
       <module name="IGenerator" target="1.5" />
       <module name="IUser-Provider" target="8" />
+      <module name="zipkin-8700" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +32,7 @@
       <module name="IOrder-Provider" options="" />
       <module name="ISpringCloud" options="-parameters" />
       <module name="IUser-Provider" options="" />
+      <module name="zipkin-8700" options="" />
     </option>
   </component>
 </project>

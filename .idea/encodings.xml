@@ -7,5 +7,6 @@
     <file url="file://$PROJECT_DIR$/IOrder-8100/IOrder-Provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IUser-8000/IUser-Provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-8700/src/main/java" charset="UTF-8" />
   </component>
 </project>
