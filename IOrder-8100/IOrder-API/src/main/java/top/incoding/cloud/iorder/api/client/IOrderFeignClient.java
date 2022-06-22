@@ -1,5 +1,6 @@
 package top.incoding.cloud.iorder.api.client;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,10 +18,21 @@ import java.util.List;
  * @Version 1.0.0
  **/
 
-@FeignClient("order-service")
+@FeignClient(value = "order-service",fallback = IOrderFeignClient.IOrderFeignClientFallback.class)
 public interface IOrderFeignClient {
 
     @GetMapping(value = "/queryOrderList/{userId}",consumes = MediaType.APPLICATION_JSON_VALUE)
     public R<List<Order>> queryOrderList(@PathVariable("userId") Long userId) ;
+
+
+    class IOrderFeignClientFallback implements IOrderFeignClient {
+
+        @Override
+        public R<List<Order>> queryOrderList(Long userId) {
+
+            System.err.println("熔断进入了");
+            return null;
+        }
+    }
 
 }

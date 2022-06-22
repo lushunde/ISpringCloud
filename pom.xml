@@ -22,6 +22,7 @@
         <module>IGoods-8200</module>
         <module>ICommon</module>
         <module>IGateway-8800</module>
+        <module>hystrix-dashdoard-8600</module>
     </modules>
 
     <dependencyManagement>
@@ -40,8 +41,16 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+                <version>2.2.10.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+                <version>2.2.1.RELEASE</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-zipkin</artifactId>

@@ -11,13 +11,8 @@
         <option value="$PROJECT_DIR$/IGoods-8200/IGoods-provider/pom.xml" />
         <option value="$PROJECT_DIR$/IGateway-8800/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-8700/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashdoard-8600/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/IOrder-API/pom.xml" />
-        <option value="$PROJECT_DIR$/IUser-API/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hystrix-dashdoard-8600" />
         <module name="IGateway-8800" />
         <module name="IOrder-API" />
         <module name="IGoods-provider" />
@@ -17,22 +18,14 @@
         <module name="IEureka-8900" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="IEureka-9001" target="1.8" />
-      <module name="IGenerator" target="1.5" />
-      <module name="IUser-Provider" target="8" />
-      <module name="zipkin-8700" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="IGateway-8800" options="" />
-      <module name="IGenerator" options="" />
       <module name="IGoods-provider" options="" />
       <module name="IOrder-Provider" options="" />
       <module name="ISpringCloud" options="-parameters" />
-      <module name="IUser-Provider" options="" />
-      <module name="zipkin-8700" options="" />
+      <module name="hystrix-dashdoard-8600" options="" />
     </option>
   </component>
 </project>

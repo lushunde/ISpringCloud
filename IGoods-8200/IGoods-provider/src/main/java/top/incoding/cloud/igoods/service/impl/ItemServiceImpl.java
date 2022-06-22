@@ -8,6 +8,7 @@ import top.incoding.cloud.igoods.api.dto.Item;
 import top.incoding.cloud.igoods.service.ItemService;
 
 import java.util.List;
+import java.util.Random;
 
 /**
 * @author bellus
@@ -17,12 +18,26 @@ import java.util.List;
 @Service
 public class ItemServiceImpl     implements ItemService {
 
-
+    Random random = new Random();
     @Autowired
     private ItemMapper itemMapper;
 
     @Override
     public List<Item> queryGoodsList(Long id) {
+
+
+        int i = random.nextInt(10);
+        System.err.println("随机数="+i);
+        if(i%2==0){
+            System.err.println("随机数双数，需要延时6秒，测试熔断");
+            try {
+                Thread.sleep(6000);
+
+            }catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
         return itemMapper.queryGoodsList(id);
     }
 }
